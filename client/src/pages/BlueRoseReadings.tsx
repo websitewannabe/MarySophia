@@ -69,7 +69,7 @@ export default function BlueRoseReadings() {
                     priceSpecification: {
                       "@type": "PriceSpecification",
                       priceCurrency: "USD",
-                      price: 175,
+                      price: 225,
                     },
                   },
                 },
@@ -94,7 +94,7 @@ export default function BlueRoseReadings() {
               Private Readings
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Channeled wisdom from the heart of the Divine Mother ~ illuminating your path with love, remembrance and grace.
+              A sacred space of communion with Mother Mary and Mary Magdalene~ guiding you into deeper truth, clarity, and union within your own heart.
             </p>
           </div>
         </div>
@@ -116,12 +116,23 @@ export default function BlueRoseReadings() {
                   <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                     Sacred Guidance for Your Soul Journey
                   </h2>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    These sessions are a sacred space of prayer, presence, and deep listening.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    Through Mary Sophia, divine wisdom flows from Mother Mary, Mary Magdalene, and the Angelic Realm—offering guidance, remembrance, and clarity for your path, including the deeper healing and understanding of your relationships.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    Mother Mary often comes forward as a presence of grace, offering comfort, reassurance, and gentle guidance for the path you are walking.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    Mary Magdalene often comes forward as a presence of truth, offering guidance in the realm of relationships, sacred union, and the healing of the heart.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    Each reading is an invitation into a space of love, presence, and deep soul remembrance~ where what is ready to be seen, felt, and understood is gently revealed.
+                  </p>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Receive divine guidance and soul remembrance through a deep,
-                    loving transmission from Mother Mary, Mary Magdalene, and
-                    the Angelic Realm. These readings illuminate your soul
-                    gifts, past life connections, and offer wisdom for the path
-                    unfolding before you.
+                    These sessions are for those who feel a genuine resonance with the Marys and are open to receiving guidance through the wisdom of the heart. If you feel called to this space, you are welcome here.
                   </p>
                 </div>
 
@@ -129,14 +140,32 @@ export default function BlueRoseReadings() {
                   <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                     What to Expect
                   </h2>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    Each session is held as a gentle and reverent space where your heart, your questions, and your soul's unfolding are honored.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-3">
+                    Through channeled transmission, you may receive:
+                  </p>
+                  <ul className="list-none space-y-3 text-gray-700 font-open-sans mb-4">
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Clarity for your current path
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Insight into your soul gifts
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Remembrance of soul connections
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Guidance for spiritual growth and healing
+                    </li>
+                  </ul>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Each reading is a sacred space where divine wisdom flows
-                    through to address your deepest questions and soul longings.
-                    Through channeled messages, you'll receive clarity,
-                    guidance, and healing insights tailored to your unique
-                    journey. Blue Rose Readings are 60 minutes over Zoom. You
-                    will receive both a video recording and an audio recording
-                    immediately after the reading.
+                    Blue Rose Readings are 60 minutes and held over Zoom. You will receive both a video and audio recording after your session.
                   </p>
                 </div>
 
@@ -163,18 +192,24 @@ export default function BlueRoseReadings() {
                     </li>
                     <li className="flex items-center">
                       <span className="text-[#002147] mr-2">•</span>
+                      Relationships & Sacred Union
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
                       Life Transitions & Healing
                     </li>
                   </ul>
                 </div>
 
                 <div>
-                  <p className="text-gray-700 font-open-sans leading-relaxed italic mt-8 border-l-4 border-[#002147] pl-4">
-                    Please note that the Angels and Ascended Masters cannot tell
-                    the future. They can provide guidance and wisdom that will
-                    assist you on your journey. Think of it like you are
-                    receiving advice from your most trusted friends who can
-                    shine a light onto your path.
+                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                    A Note on Guidance
+                  </h2>
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                    The Divine does not speak in fixed outcomes or predictions.
+                  </p>
+                  <p className="text-gray-700 font-open-sans leading-relaxed italic border-l-4 border-[#002147] pl-4">
+                    Rather than telling the future, these transmissions offer wisdom, clarity, and perspective ~ illuminating the path before you so that you may walk it with greater trust and awareness.
                   </p>
                 </div>
 
@@ -184,13 +219,13 @@ export default function BlueRoseReadings() {
                       Blue Rose Reading
                     </h3>
                     <div className="text-3xl font-playfair text-[#002147] mb-4 text-center">
-                      $175
+                      $225
                     </div>
                     <p className="text-gray-600 mb-6 text-center">
                       60 minutes via Zoom
                     </p>
                     <a
-                      href="https://sacred-rose.teachable.com/purchase?product_id=6235787"
+                      href="https://sacred-rose.teachable.com/purchase?product_id=6678580"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
@@ -229,7 +264,7 @@ export default function BlueRoseReadings() {
       </div>
       <CtaSection
         buttonText="Book Now"
-        linkTo="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+        linkTo="https://sacred-rose.teachable.com/purchase?product_id=6678580"
         isExternal={true}
       />
     </>

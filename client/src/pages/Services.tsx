@@ -181,12 +181,12 @@ export default function Services() {
               </p>
               <div className="text-center">
                 <a
-                  href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6678580"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
-                  Book a Reading
+                  Receive a Reading
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
