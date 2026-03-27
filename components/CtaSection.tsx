@@ -67,7 +67,7 @@ export default function CtaSection() {
                   value="Subscribe"
                   name="subscribe"
                   id="mc-embedded-subscribe"
-                  className="w-full bg-[#D4AF37] hover:bg-[#003864] text-white py-2 px-6 rounded-md transition duration-300 cursor-pointer"
+                  className="w-full bg-[#D4AF37] hover:bg-[#003864] text-[#002147] hover:text-white font-semibold py-2 px-6 rounded-md transition duration-300 cursor-pointer"
                 />
               </div>
             </div>

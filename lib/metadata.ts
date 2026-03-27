@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Mary Sophia | Divine Feminine Channel & Spiritual Guide",
   url: "https://lightofsophia.com",
   description:
-    "Mary Sophia offers private readings, spiritual counseling, and sacred teachings rooted in the Divine Feminine. Explore the School of Sophia and Order of the Blue Rose.",
+    "Mary Sophia offers private readings, spiritual counseling, and sacred teachings rooted in the Divine Feminine. Explore the School of Sophia.",
   keywords: [
     "Mary Sophia",
     "Divine Feminine",

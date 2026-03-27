@@ -5,7 +5,7 @@ import CtaSection from "@/components/CtaSection";
 export const metadata = generatePageMetadata({
   title: "Private Readings | Channeled Divine Guidance with Mary Sophia",
   description:
-    "Receive sacred soul guidance with Mary Sophia. Her private readings offer divine messages from the Mother and the Angelic Realms to support your spiritual journey.",
+    "Receive sacred soul guidance with Mary Sophia. Private readings offering divine messages from the Mother and Angelic Realms for your spiritual path.",
   keywords: [
     "private spiritual readings",
     "intuitive guidance",

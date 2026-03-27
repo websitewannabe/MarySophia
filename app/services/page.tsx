@@ -7,7 +7,7 @@ import CtaSection from "@/components/CtaSection";
 export const metadata = generatePageMetadata({
   title: "Spiritual Services | Private Readings, Counseling & Wisdom Teachings",
   description:
-    "Explore Mary Sophia's spiritual services including private readings, spiritual counseling, the School of Sophia, and the Order of the Blue Rose. Awaken the Divine Feminine within.",
+    "Explore Mary Sophia's spiritual services: private readings, spiritual counseling, the School of Sophia, and the Order of the Blue Rose.",
   keywords: [
     "spiritual services",
     "private readings",
@@ -223,7 +223,7 @@ export default function ServicesPage() {
                   href="/counseling"
                   className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
-                  Learn More
+                  Explore Spiritual Counseling
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>

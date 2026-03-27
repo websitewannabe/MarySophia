@@ -30,14 +30,14 @@ export default function Footer() {
               />
             </Link>
             <div className="flex space-x-4 justify-center md:justify-start mb-6">
-              <a href="https://www.instagram.com/orderofthebluerose/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white/80 transition duration-300">
+              <a href="https://www.instagram.com/orderofthebluerose/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" className="text-white hover:text-white/80 transition duration-300">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.youtube.com/@orderofthebluerose3878" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white/80 transition duration-300">
+              <a href="https://www.youtube.com/@orderofthebluerose3878" target="_blank" rel="noopener noreferrer" aria-label="Subscribe on YouTube" className="text-white hover:text-white/80 transition duration-300">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="https://orderofthebluerose.substack.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white/80 transition duration-300">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <a href="https://orderofthebluerose.substack.com" target="_blank" rel="noopener noreferrer" aria-label="Read our Substack newsletter" className="text-white hover:text-white/80 transition duration-300">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
                 </svg>
               </a>
@@ -102,12 +102,12 @@ export default function Footer() {
 
             <div className="mt-8 border-t border-white/20 pt-6 text-center md:text-right text-sm text-white">
               <p className="mb-2 md:mb-0">&copy; {new Date().getFullYear()} Mary Sophia. All rights reserved.</p>
-              <div className="space-x-4 mt-2">
-                <Link href="/privacy" className="text-white/60 hover:text-white/80 transition duration-300">Privacy Policy</Link>
-                <Link href="/accessibility-statement" className="text-white/60 hover:text-white/80 transition duration-300">Accessibility</Link>
-                <a href="/sitemap.xml" className="text-white/60 hover:text-white/80 transition duration-300">Sitemap</a>
-                <Link href="/site-credits" className="text-white/60 hover:text-white/80 transition duration-300">Site Credits</Link>
-                <a href="https://aiwannabe.co" target="_blank" rel="noopener noreferrer nofollow" className="text-white/60 hover:text-white/80 transition duration-300">Powered by AI Wannabe</a>
+              <div className="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 mt-2">
+                <Link href="/privacy" className="text-white/60 hover:text-white/80 transition duration-300 py-1">Privacy Policy</Link>
+                <Link href="/accessibility-statement" className="text-white/60 hover:text-white/80 transition duration-300 py-1">Accessibility</Link>
+                <a href="/sitemap.xml" className="text-white/60 hover:text-white/80 transition duration-300 py-1">Sitemap</a>
+                <Link href="/site-credits" className="text-white/60 hover:text-white/80 transition duration-300 py-1">Site Credits</Link>
+                <a href="https://aiwannabe.co" target="_blank" rel="noopener noreferrer nofollow" className="text-white/60 hover:text-white/80 transition duration-300 py-1">Powered by AI Wannabe</a>
               </div>
             </div>
           </div>

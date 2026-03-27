@@ -15,9 +15,9 @@ export default function SiteCreditsPage() {
       <section className="py-24 pt-48 bg-[#002147]">
         <div className="max-w-4xl mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-[#D4AF37] text-sm uppercase tracking-[0.3em] mb-3">
-              Built By
-            </p>
+            <h1 className="text-[#D4AF37] text-sm uppercase tracking-[0.3em] mb-3">
+              Site Credits
+            </h1>
             <a
               href="https://websitewannabe.co"
               target="_blank"
