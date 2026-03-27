@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
-server/public
-vite.config.ts.*
+.next
+next-env.d.ts
+.env.local
+.env*.local
 *.tar.gz
