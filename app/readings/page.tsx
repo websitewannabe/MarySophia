@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata = generatePageMetadata({
-  title: "Private Readings | Channeled Divine Guidance with Mary Sophia",
+  title: "Private Channeled Readings with Mary Sophia",
   description:
     "Receive sacred soul guidance with Mary Sophia. Private readings offering divine messages from the Mother and Angelic Realms for your spiritual path.",
   keywords: [

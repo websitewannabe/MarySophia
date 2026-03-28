@@ -1,7 +1,7 @@
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata = generatePageMetadata({
-  title: "Privacy Policy | Mary Sophia",
+  title: "Privacy Policy for Light of Sophia",
   description: "Privacy policy for lightofsophia.com — how we collect, use, and protect your personal information.",
   canonical: "/privacy",
 });

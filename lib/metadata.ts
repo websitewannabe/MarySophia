@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteConfig = {
-  name: "Mary Sophia | Divine Feminine Channel & Spiritual Guide",
+  name: "Mary Sophia: Awaken Your Divine Feminine Light",
   url: "https://lightofsophia.com",
   description:
     "Mary Sophia offers private readings, spiritual counseling, and sacred teachings rooted in the Divine Feminine. Explore the School of Sophia.",

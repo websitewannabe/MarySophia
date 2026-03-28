@@ -4,7 +4,7 @@ import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata = generatePageMetadata({
-  title: "Order of the Blue Rose | Sacred Sisterhood & Divine Remembrance",
+  title: "The Order of the Blue Rose: A Sacred Path of Remembrance",
   description:
     "Join the Order of the Blue Rose — a sacred lineage and spiritual sisterhood rooted in Divine Love, remembrance, and the embodiment of the Divine Feminine.",
   keywords: [

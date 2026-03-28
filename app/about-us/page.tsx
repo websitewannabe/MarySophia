@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata = generatePageMetadata({
-  title: "About Mary Sophia | Divine Feminine Teacher & Messenger",
+  title: "Meet Mary Sophia, Divine Feminine Channel and Spiritual Guide",
   description:
     "Learn about Mary Sophia — teacher of the Way of Mary, intuitive channel, and spiritual counselor offering sacred wisdom from the Divine Feminine lineage.",
   keywords: [

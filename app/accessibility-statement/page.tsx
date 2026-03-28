@@ -1,7 +1,7 @@
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata = generatePageMetadata({
-  title: "Accessibility | Mary Sophia",
+  title: "Accessibility Statement for Light of Sophia",
   description: "Our commitment to making lightofsophia.com accessible to all visitors.",
   canonical: "/accessibility-statement",
 });

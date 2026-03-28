@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = generatePageMetadata({
-  title: "School of Sophia | Divine Feminine Spiritual Formation",
+  title: "School of Sophia: Awaken Through Sacred Feminine Wisdom",
   description:
     "Explore sacred teachings through the School of Sophia — a path of spiritual growth rooted in Divine Feminine wisdom, sacred ritual, and embodiment practices.",
   keywords: [

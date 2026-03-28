@@ -2,7 +2,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 import ContactForm from "./ContactForm";
 
 export const metadata = generatePageMetadata({
-  title: "Contact Mary Sophia | Send a Message or Connect Online",
+  title: "Connect with Mary Sophia and Begin Your Sacred Journey",
   description:
     "Get in touch with Mary Sophia. Reach out via contact form or email for spiritual support, session inquiries, or guidance on your sacred journey.",
   keywords: [

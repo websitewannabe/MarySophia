@@ -3,7 +3,7 @@ import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata = generatePageMetadata({
-  title: "Spiritual Counseling | Sacred Healing with Mary Sophia",
+  title: "Spiritual Counseling for Life's Sacred Thresholds",
   description:
     "Receive intuitive, heart-centered spiritual counseling from Mary Sophia. Support through loss, transitions, and sacred thresholds with divine feminine wisdom.",
   keywords: [

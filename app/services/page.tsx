@@ -5,7 +5,7 @@ import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata = generatePageMetadata({
-  title: "Spiritual Services | Private Readings, Counseling & Wisdom Teachings",
+  title: "Sacred Spiritual Services by Mary Sophia",
   description:
     "Explore Mary Sophia's spiritual services: private readings, spiritual counseling, the School of Sophia, and the Order of the Blue Rose.",
   keywords: [
