@@ -1,8 +1,8 @@
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata = generatePageMetadata({
-  title: "Accessibility Statement for Light of Sophia",
-  description: "Our commitment to making lightofsophia.com accessible to all visitors.",
+  title: "Accessibility Statement for Mary Sophia",
+  description: "Our commitment to making our website accessible to all visitors.",
   canonical: "/accessibility-statement",
 });
 
@@ -10,42 +10,36 @@ export default function AccessibilityPage() {
   return (
     <div className="bg-white py-16 pt-48">
       <div className="max-w-3xl mx-auto px-4">
-        <h1 className="font-playfair text-4xl text-[#002147] mb-8">Accessibility Statement</h1>
+        <h1 className="font-playfair text-4xl text-[#002147] mb-4">Accessibility Statement</h1>
+        <p className="text-gray-500 text-sm mb-8">Our commitment to digital accessibility for all users</p>
+        <p className="text-gray-400 text-xs mb-8">Last updated: March 31, 2026</p>
 
         <div className="prose prose-gray max-w-none font-open-sans space-y-6">
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Declaration of Accessibility Introduction</h2>
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Our Commitment to Accessibility</h2>
           <p className="text-gray-700 leading-relaxed">
-            The Internet constitutes the largest resource supporting freedom of information today for the user community in general and for users with disabilities in particular. For that reason we place emphasis on granting equal service to people with disabilities who use information displayed on the website, and on improving their browsing experience. We seek to ensure that our digital services will be accessible to people with disabilities, and accordingly, we have invested in the website&apos;s ease of use for people with disabilities, and continue to improve our web pages as needed.
+            Mary Sophia is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply the relevant accessibility standards to ensure we provide equal access to all users.
           </p>
 
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Using the EqualWeb Website Accessibility Tool</h2>
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Conformance Status</h2>
           <p className="text-gray-700 leading-relaxed">
-            This website employs the Nagich By Click accessibility software and is connected through a special accessibility server. The software complies with Israeli standard SI 5568 at AA level. The software is subject to the manufacturer&apos;s Terms of Use. The website owners and/or agents bear the responsibility for the usage and implementation on the website, including the content displayed on the website under the Terms of Use of the Software.
+            The Web Content Accessibility Guidelines (WCAG) standard defines requirements to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. This website strives to conform to WCAG 2.1 Level AA. This means the content meets all Level AA requirements, providing a high standard of accessibility for most users. We conduct annual reviews to ensure continued compliance and improvement.
           </p>
 
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">How Does the Site&apos;s Accessibility Work?</h2>
-          <p className="text-gray-700 leading-relaxed">
-            The website features an accessibility menu. A click on the menu makes accessibility buttons available. After selecting a menu item, the user should wait for the page to be loaded.
-          </p>
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Accessibility Features</h2>
 
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">What Are the Main Items?</h2>
+          <h3 className="font-playfair text-xl text-[#002147] mt-6 mb-3">Built-in Accessibility</h3>
           <ul className="list-none space-y-2 text-gray-700 ml-4">
             {[
-              "Option for keyboard-based navigation",
-              "Adaptation of the website for NVDA assistive technology",
-              "Enlargement of the font on the website to 4 levels of magnification",
-              "Immobilization of moving elements, and stoppage of blinking",
-              "Altered color contrast against dark background",
-              "Altered color contrast against light background",
-              "Adaptation for color-blind users",
-              "Change of font for better readability",
-              "Enlarged cursor, and change of color to black or white",
-              "Enlargement of display to ~200%",
-              "Emphasizing links on the website",
-              "Emphasizing headings on the website",
-              "Presentation of alt text to graphics",
-              "Declaration of accessibility",
-              "Sending of accessibility feedback",
+              "Semantic HTML for proper document structure and screen reader compatibility",
+              "Sufficient color contrast ratios throughout the design",
+              "Full keyboard navigation support for all interactive elements",
+              "Visible focus indicators for keyboard users",
+              "Descriptive alt text for all meaningful images",
+              "Properly associated form labels for all input fields",
+              "Responsive design that adapts to all screen sizes and zoom levels",
+              "Respect for reduced motion preferences",
+              "ARIA attributes where needed to enhance assistive technology support",
+              "Skip navigation links for efficient keyboard browsing",
             ].map((item) => (
               <li key={item} className="flex items-start">
                 <span className="text-[#002147] mr-2">•</span>
@@ -54,22 +48,36 @@ export default function AccessibilityPage() {
             ))}
           </ul>
 
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Clarification</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Despite our efforts to apply accessibility to browsing on every webpage, it may be discovered that some of webpages have not yet received accessibility or are not suitable for any available accessibility solution.
+          <h3 className="font-playfair text-xl text-[#002147] mt-6 mb-3">Accessibility Tools</h3>
+          <p className="text-gray-700 leading-relaxed mb-2">
+            Our accessibility tools panel provides additional customization options:
           </p>
-          <p className="text-gray-700 leading-relaxed">
-            We are continuing the effort to improve the website&apos;s accessibility to the full extent possible, guided by our belief, and by our moral commitment, that the website should be usable by the entire population, including people with disabilities.
-          </p>
+          <ul className="list-none space-y-2 text-gray-700 ml-4">
+            {[
+              "Adjustable font sizes for improved readability",
+              "High contrast and inverted contrast modes",
+              "Color-blind friendly color adjustments",
+              "Dyslexia-friendly font option",
+              "Cursor modifications for better visibility",
+              "Link and heading emphasis for easier navigation",
+              "Animation and motion controls",
+              "Full page zoom capabilities",
+            ].map((item) => (
+              <li key={item} className="flex items-start">
+                <span className="text-[#002147] mr-2">•</span>
+                {item}
+              </li>
+            ))}
+          </ul>
 
           <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Measures to Support Accessibility</h2>
           <ul className="list-none space-y-2 text-gray-700 ml-4">
             {[
-              "Include accessibility as a requirement for all web content. Content must meet WCAG 2.1 AA, and should meet AAA as feasible.",
-              "Assign clear accessibility goals and responsibilities.",
-              "Ensure content authors have access to accessibility knowledge and skills.",
-              "Include accessibility as part of our technology mission.",
-              "Include accessibility throughout our website-related internal policies.",
+              "Include accessibility as a requirement for all web content and design decisions",
+              "Conduct both automated and manual accessibility testing throughout development",
+              "Perform annual accessibility reviews to identify and address any issues",
+              "Set clear accessibility goals and responsibilities for the team",
+              "Include accessibility throughout our website-related internal policies",
             ].map((item) => (
               <li key={item} className="flex items-start">
                 <span className="text-[#002147] mr-2">•</span>
@@ -78,59 +86,83 @@ export default function AccessibilityPage() {
             ))}
           </ul>
 
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Conformance Status</h2>
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Compatibility</h2>
           <p className="text-gray-700 leading-relaxed">
-            The Web Content Accessibility Guidelines (WCAG) standard defines requirements to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. &ldquo;Fully conforms&rdquo; means that the content meets all of the WCAG requirements at the specified Level without exceptions. We strive to be/remain fully compliant with an annual review of our website.
+            Our website is designed to be compatible with the following assistive technologies:
           </p>
-
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Feedback</h2>
-          <p className="text-gray-700 leading-relaxed">
-            We welcome your feedback on the accessibility of our website. Please let us know if you encounter accessibility barriers.
-          </p>
-
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Compatibility with Browsers and Assistive Technology</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Our website is designed to be compatible with assistive technologies and the last two versions of major browsers.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            In Internet Explorer 10, 11, and older browsers, some aspects of the website may not display optimally. The website is not designed for Internet Explorer 9 and earlier versions.
-          </p>
+          <ul className="list-none space-y-2 text-gray-700 ml-4">
+            {[
+              "Screen readers (NVDA, JAWS, VoiceOver, TalkBack)",
+              "Speech recognition software",
+              "Screen magnification tools",
+              "Alternative input devices",
+              "Last two versions of all major browsers",
+            ].map((item) => (
+              <li key={item} className="flex items-start">
+                <span className="text-[#002147] mr-2">•</span>
+                {item}
+              </li>
+            ))}
+          </ul>
 
           <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Technical Specifications</h2>
           <p className="text-gray-700 leading-relaxed">
             Our website relies upon the following technologies for conformance with WCAG 2.1:
           </p>
           <ul className="list-none space-y-2 text-gray-700 ml-4">
-            {["HTML", "CSS", "SVG"].map((item) => (
+            {["HTML", "WAI-ARIA", "CSS", "SVG", "JavaScript"].map((item) => (
               <li key={item} className="flex items-start">
                 <span className="text-[#002147] mr-2">•</span>
                 {item}
               </li>
             ))}
           </ul>
+
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Known Limitations</h2>
           <p className="text-gray-700 leading-relaxed">
-            The following technologies are used to improve accessibility and the user experience for everyone:
+            While we strive for full accessibility, some limitations may exist:
           </p>
           <ul className="list-none space-y-2 text-gray-700 ml-4">
-            <li className="flex items-start">
-              <span className="text-[#002147] mr-2">•</span>
-              JavaScript
-            </li>
+            {[
+              "Third-party content: Some embedded content from external services may not fully meet accessibility standards. We work with providers to improve this where possible.",
+              "Data visualizations: Complex charts or visual data representations may not be fully accessible to all assistive technologies. We provide text alternatives where feasible.",
+            ].map((item) => (
+              <li key={item} className="flex items-start">
+                <span className="text-[#002147] mr-2">•</span>
+                {item}
+              </li>
+            ))}
           </ul>
-
-          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Limitations and Alternatives</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Several videos on our website use YouTube. As an alternative, the videos are provided as MP4 files on our server.
-          </p>
 
           <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Assessment Approach</h2>
           <p className="text-gray-700 leading-relaxed">
-            We assess the accessibility of our website by self-evaluation and annual review.
+            We assess the accessibility of our website through the following methods:
+          </p>
+          <ul className="list-none space-y-2 text-gray-700 ml-4">
+            {[
+              "Automated testing using industry-standard accessibility evaluation tools",
+              "Manual testing with keyboard navigation and screen readers",
+              "Annual comprehensive accessibility review",
+            ].map((item) => (
+              <li key={item} className="flex items-start">
+                <span className="text-[#002147] mr-2">•</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+
+          <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Feedback</h2>
+          <p className="text-gray-700 leading-relaxed">
+            We welcome your feedback on the accessibility of our website. If you encounter any accessibility barriers or have suggestions for improvement, please contact us at{" "}
+            <a href="mailto:support@websitewannabe.com" className="text-[#002147] underline hover:text-[#002147]/80">
+              support@websitewannabe.com
+            </a>
+            . We aim to respond to all accessibility feedback within 5 business days.
           </p>
 
           <h2 className="font-playfair text-2xl text-[#002147] mt-8 mb-4">Formal Approval of This Accessibility Statement</h2>
           <p className="text-gray-700 leading-relaxed">
-            This Accessibility Statement is approved by Chris Tierney, Website Wannabe Technology Support.
+            This accessibility statement is approved by Website Wannabe, the technology provider for Mary Sophia.
           </p>
         </div>
       </div>

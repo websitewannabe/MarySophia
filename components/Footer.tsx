@@ -44,8 +44,8 @@ export default function Footer() {
             </div>
             <button
               onClick={() => {
-                if (typeof window !== 'undefined' && window.openEqualWeb) {
-                  window.openEqualWeb();
+                if (typeof window !== 'undefined' && window.openAccessibilityTools) {
+                  window.openAccessibilityTools();
                 }
               }}
               className="inline-flex items-center space-x-2 text-white/70 hover:text-white transition duration-300 text-sm"
